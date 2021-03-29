@@ -6,6 +6,10 @@
   --lblue: #169E99;
   --byelllow: #FAE893;
   --red:#AB0768;
+
+
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -112,4 +116,10 @@ article {
 }
 .s3 {
   background-color: var(--dblue);
+}
+
+.animate__animated.animate__bounceInDown {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+  --animate-duration: 2s;
 }
